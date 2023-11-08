@@ -1,0 +1,15 @@
+body {
+    background-image: url(../fotos/logo.png);
+    background-color: black;
+    background-size: cover;
+    background-position: center center;
+    transition: 2s ease;
+}
+
+.div1, .div2, .div3 {
+    color: white;
+    display: inline-block;
+    margin-top: 55%;
+    margin-right: 10%;
+
+}
