@@ -1,15 +1,46 @@
 body {
-    background-image: url(../fotos/logo.png);
-    background-color: black;
-    background-size: cover;
-    background-position: center center;
-    transition: 2s ease;
+    background: radial-gradient(circle, #3498db, #2ecc71);
+
+}
+
+header {
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    padding: 20px;
+    text-shadow: 1px 20px 1px rgba(0, 0, 0, 0.8);
+}
+
+form {
+    color: white;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    text-align: center; /* Centraliza o texto dentro do formulário */
+}
+
+input {
+    width: 20%;
+    padding: 5px;
+    margin-bottom: 10px; /* Adiciona um espaçamento inferior para os campos de entrada */
 }
 
 .div1, .div2, .div3 {
-    color: white;
-    display: inline-block;
-    margin-top: 55%;
-    margin-right: 10%;
+    margin: 20px auto; /* Centraliza as divs horizontalmente */
+    max-width: 400px; /* Limita a largura máxima das divs para evitar que fiquem muito largas */
+}
 
+#botao {
+    background-color: #3498db;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#botao:hover {
+    background-color: #2ecc71;
 }
