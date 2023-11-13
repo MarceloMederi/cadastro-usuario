@@ -1,37 +1,49 @@
 body {
     background: radial-gradient(circle, #3498db, #2ecc71);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
 
+main {
+    text-align: center;
 }
 
 header {
     color: white;
-    padding: 5px;
-    text-align: center;
+    padding: 20px;
 }
 
-h1{
+h1 {
+    font-size: 6em;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 3px;
-    padding: 20px;
-    text-shadow: 1px 20px 1px rgba(0, 0, 0, 0.8);
+    text-shadow: 5px 20px 1px rgba(0, 0, 0, 0.8);
+    margin: 0;
+    transition: all 5s ease;
+    
 }
 
 form {
     color: white;
-    font-size: 2.5em;
+    font-size: 1.5em;
     letter-spacing: 2px;
-    text-align: center; /* Centraliza o texto dentro do formulário */
 }
 
 input {
-    width: 50%;
-    padding: 5px;
-    margin-bottom: 10px; /* Adiciona um espaçamento inferior para os campos de entrada */
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box; 
+    border-radius: 5px;
 }
 
 .div1, .div2, .div3 {
-    margin: 20px auto; /* Centraliza as divs horizontalmente */
-    max-width: 400px; /* Limita a largura máxima das divs para evitar que fiquem muito largas */
+    margin: 20px auto;
+    max-width: 400px;
+    font-family: sans-serif;
 }
 
 #botao {
