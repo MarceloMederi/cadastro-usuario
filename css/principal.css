@@ -1,46 +1,55 @@
 body {
     background: radial-gradient(circle, #3498db, #2ecc71);
     height: 100vh;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
 }
+
 header {
     border: 3px solid #000;
     background-color: white;
     border-radius: 10px;
+    text-align: center;
 }
 
 h1 {
-    display: flex;
-    align-items: center;
-    justify-content:center;
     font-size: 4em;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0;
 }
 
 .button-section {
-    display: inline-block;
-    align-items: center;
     display: flex;
     justify-content: center;
     margin: 20px;
 }
 
 button {
-    margin-right: 70px;
     font-size: 2em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Verdana', sans-serif;
     font-weight: bold;
     border-radius: 10px;
     cursor: pointer;
     border: none;
+    margin-right: 20px;
+}
+
+/* Adicionei um estilo para a navegação (nav) para controlar a margem do botão "Sair" */
+nav {
+    margin-top: 20px;
+    text-align: center;
 }
 
 .sair {
     color: #5ab8ff;
-    margin-left: 45%;
-    margin-top: 20%;
     border: none;
+    margin: 40px auto; /* Centralize verticalmente e ajuste a margem superior */
+    display: block;
 }
 
-button:hover {
+button:hover, .sair:hover {
     background-color: #24a148;
+}
+
+.sair:hover {
+    background-color: #4fa3f7;
 }
